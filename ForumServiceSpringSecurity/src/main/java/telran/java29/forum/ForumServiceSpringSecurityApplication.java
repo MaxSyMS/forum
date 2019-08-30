@@ -23,6 +23,7 @@ public class ForumServiceSpringSecurityApplication implements CommandLineRunner 
 	PasswordEncoder passwordEncoder;
 	
 	
+	
 	@Override
 	public void run(String... args) throws Exception {
 		if(!accountRepository.existsById("admin")) {
